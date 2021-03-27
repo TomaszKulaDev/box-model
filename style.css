@@ -12,12 +12,12 @@ text-transform: uppercase;
 div {
 width: 300px; /* DRY */
 height: 300px;
+box-sizing:border-box;
+padding: 100px 100px;
 } 
 
 .content {
-    background: rgb(190, 23, 23);
-    box-sizing:border-box;
-    padding: 100px 100px;
+    background-color: rgb(190, 23, 23);
     border: 15px solid white;
     margin: 30px;
 }
@@ -26,10 +26,12 @@ height: 300px;
     -Margines w kolumnie jest wybierany wiekszy z 2 elementów. */
 .border {
     background-color: rgb(6, 96, 180);
-    box-sizing: border-box;
     border: 15px solid royalblue;
-    padding: 100px 100px;
-    text-align:center;
     margin: 30px;
+}
 
+.square {
+    background-color: rgb(113, 206, 26);
+    border: 15px solid tomato;
+    margin: 30px;
 }
