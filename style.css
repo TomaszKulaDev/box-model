@@ -3,33 +3,33 @@ font-family: monospace;
 background-color: rgb(82, 140, 167);
 color: azure;
 font-size: x-large;
-
 }
 
 h3 {
 text-transform: uppercase;
-
 }
-
 
 div {
 width: 300px; /* DRY */
 height: 300px;
-
 } 
 
 .content {
     background: rgb(190, 23, 23);
     box-sizing:border-box;
     padding: 100px 100px;
-    border: 10px solid white;
+    border: 15px solid white;
+    margin: 30px;
 }
-/*  Remember to set box-sizing: border-box; */
+/*  -Remember to set box-sizing: border-box;
+    -Marginesy z boków sie dodają 30+30
+    -Margines w kolumnie jest wybierany wiekszy z 2 elementów. */
 .border {
     background-color: rgb(6, 96, 180);
     box-sizing: border-box;
     border: 15px solid royalblue;
     padding: 100px 100px;
     text-align:center;
+    margin: 30px;
 
 }
