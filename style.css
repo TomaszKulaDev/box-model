@@ -13,7 +13,6 @@ div {
 width: 300px; /* DRY */
 height: 300px;
 box-sizing:border-box;
-padding: 100px 100px;
 } 
 
 .content {
@@ -34,4 +33,12 @@ padding: 100px 100px;
     background-color: rgb(113, 206, 26);
     border: 15px solid tomato;
     margin: 30px;
+}
+
+.hideSquare {
+background-color: rgb(100, 62, 143);
+margin: 30px;
+border: 20px solid orange;
+/* overflow: auto;  */
+/* overflow: hidden; */
 }
