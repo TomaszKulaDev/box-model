@@ -5,40 +5,47 @@ color: azure;
 font-size: x-large;
 }
 
-h3 {
-text-transform: uppercase;
-}
-
-div {
-width: 300px; /* DRY */
-height: 300px;
-box-sizing:border-box;
-} 
-
-.content {
-    background-color: rgb(190, 23, 23);
-    border: 15px solid white;
-    margin: 30px;
-}
-/*  -Remember to set box-sizing: border-box;
-    -Marginesy z boków sie dodają 30+30
-    -Margines w kolumnie jest wybierany wiekszy z 2 elementów. */
-.border {
-    background-color: rgb(6, 96, 180);
-    border: 15px solid royalblue;
-    margin: 30px;
-}
 
 .square {
-    background-color: rgb(113, 206, 26);
-    border: 15px solid tomato;
-    margin: 30px;
+width: 300px;
+height: 300px;
+margin: 20px;
+background-color: rgb(192, 13, 13);
+box-sizing:border-box;
+padding: 20px;
 }
 
-.hideSquare {
-background-color: rgb(100, 62, 143);
-margin: 30px;
-border: 20px solid orange;
-/* overflow: auto;  */
-/* overflow: hidden; */
+a {
+    text-decoration: none;
+    font-size: 60px;
+}
+
+a:link {
+color: rgba(251, 255, 35, 0.808);
+}
+a:visited {
+color: tomato;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+a:active {
+    color: lime;
+}
+
+
+
+.square2 {
+width: 300px;
+height: 200px;
+background-color: rgb(236, 20, 20);
+transition: .5s;
+}
+
+.square2:hover {
+width: 500px;
+height: 350px;
+background-color: rgb(16, 230, 26);
 }
